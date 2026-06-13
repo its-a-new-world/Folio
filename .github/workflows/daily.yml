@@ -19,11 +19,11 @@ jobs:
 
       # Step 1: Get your code onto the server
       - name: Checkout code
-        uses: actions/checkout@v4   # official action - clones your repo
+        uses: actions/checkout@v6   # official action - clones your repo
 
       # Step 2: Install Python 3.11
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
